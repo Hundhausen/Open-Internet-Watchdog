@@ -5,16 +5,40 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open Internet Watchdog", "Open Internet Watchdog\Open Internet Watchdog.csproj", "{5E98382C-5D02-42FB-ADB5-FD66AF30F555}"
 EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Open Internet Watchdog Setup", "Open Internet Watchdog Setup\Open Internet Watchdog Setup.isproj", "{FDE72C1B-6C51-4C9D-B6E1-DC0E7350AD7D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5E98382C-5D02-42FB-ADB5-FD66AF30F555} = {5E98382C-5D02-42FB-ADB5-FD66AF30F555}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
 		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
 		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E98382C-5D02-42FB-ADB5-FD66AF30F555}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{5E98382C-5D02-42FB-ADB5-FD66AF30F555}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
 		{5E98382C-5D02-42FB-ADB5-FD66AF30F555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E98382C-5D02-42FB-ADB5-FD66AF30F555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E98382C-5D02-42FB-ADB5-FD66AF30F555}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E98382C-5D02-42FB-ADB5-FD66AF30F555}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
 		{5E98382C-5D02-42FB-ADB5-FD66AF30F555}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E98382C-5D02-42FB-ADB5-FD66AF30F555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E98382C-5D02-42FB-ADB5-FD66AF30F555}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{5E98382C-5D02-42FB-ADB5-FD66AF30F555}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{FDE72C1B-6C51-4C9D-B6E1-DC0E7350AD7D}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{FDE72C1B-6C51-4C9D-B6E1-DC0E7350AD7D}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{FDE72C1B-6C51-4C9D-B6E1-DC0E7350AD7D}.Debug|Any CPU.ActiveCfg = SingleImage
+		{FDE72C1B-6C51-4C9D-B6E1-DC0E7350AD7D}.Debug|Any CPU.Build.0 = SingleImage
+		{FDE72C1B-6C51-4C9D-B6E1-DC0E7350AD7D}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{FDE72C1B-6C51-4C9D-B6E1-DC0E7350AD7D}.DVD-5|Any CPU.Build.0 = DVD-5
+		{FDE72C1B-6C51-4C9D-B6E1-DC0E7350AD7D}.Release|Any CPU.ActiveCfg = SingleImage
+		{FDE72C1B-6C51-4C9D-B6E1-DC0E7350AD7D}.Release|Any CPU.Build.0 = SingleImage
+		{FDE72C1B-6C51-4C9D-B6E1-DC0E7350AD7D}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{FDE72C1B-6C51-4C9D-B6E1-DC0E7350AD7D}.SingleImage|Any CPU.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
