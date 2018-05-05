@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Runtime.InteropServices;
 using System.IO;
 using System.Xml;
@@ -93,6 +91,7 @@ namespace Open_Internet_Watchdog {
             write_console_message(2, "Pressing enter hides the console (programm still runs)");
             Console.ReadKey();
             ShowWindow(handle, SW_HIDE);
+            Console.ReadKey();
             }
 
         public static void write_conn_log(bool online) {

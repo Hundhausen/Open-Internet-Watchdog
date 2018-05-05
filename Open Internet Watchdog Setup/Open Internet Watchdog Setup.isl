@@ -225,6 +225,7 @@
 	<table name="AppSearch">
 		<col key="yes" def="s72">Property</col>
 		<col key="yes" def="s72">Signature_</col>
+		<row><td>DOTNETVERSION45FULL</td><td>DotNet45Full</td></row>
 	</table>
 
 	<table name="BBControl">
@@ -339,8 +340,12 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
+		<row><td>ISX_DEFAULTCOMPONENT</td><td>{F9354AAC-A631-4414-8D23-049069536617}</td><td>JEAN_PIERRE_HUNDHAUSEN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{D33D8C45-C5DB-4740-9A54-287D73099A51}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td><td>{E1E1A616-51F0-4C4F-919C-1758A69B9008}</td><td>INSTALLDIR</td><td>2</td><td/><td>open_internet_watchdog.prim_</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe1</td><td>{5998552F-409C-407A-95BA-D18445482698}</td><td>INSTALLDIR</td><td>2</td><td/><td>open_internet_watchdog.prim_</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe2</td><td>{33BE5EAC-7117-4E9E-9E33-EEEF3A59A9B3}</td><td>INSTALLDIR</td><td>2</td><td/><td>open_internet_watchdog.prim_</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe3</td><td>{EFF042E8-6F3F-42E9-8641-53616F9E2FBD}</td><td>INSTALLDIR</td><td>2</td><td/><td>open_internet_watchdog.prim_</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -534,7 +539,7 @@
 		<row><td>InstallChangeFolder</td><td>Up</td><td>PushButton</td><td>310</td><td>66</td><td>19</td><td>19</td><td>3670019</td><td/><td/><td>NewFolder</td><td>##IDS__IsBrowseFolderDlg_UpOneLevel##</td><td>0</td><td/><td/><td>NewBinary3</td></row>
 		<row><td>InstallWelcome</td><td>Back</td><td>PushButton</td><td>164</td><td>243</td><td>66</td><td>17</td><td>1</td><td/><td>##IDS_BACK##</td><td>Copyright</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>InstallWelcome</td><td>Cancel</td><td>PushButton</td><td>301</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_CANCEL##</td><td>Back</td><td/><td>0</td><td/><td/><td/></row>
-		<row><td>InstallWelcome</td><td>Copyright</td><td>Text</td><td>135</td><td>144</td><td>228</td><td>73</td><td>65539</td><td/><td>##IDS__IsWelcomeDlg_WarningCopyright##</td><td>Next</td><td/><td>0</td><td/><td/><td/></row>
+		<row><td>InstallWelcome</td><td>Copyright</td><td>Text</td><td>135</td><td>144</td><td>228</td><td>73</td><td>65538</td><td/><td>##IDS__IsWelcomeDlg_WarningCopyright##</td><td>Next</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>InstallWelcome</td><td>DlgLine</td><td>Line</td><td>0</td><td>234</td><td>374</td><td>0</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td/></row>
 		<row><td>InstallWelcome</td><td>Image</td><td>Bitmap</td><td>0</td><td>0</td><td>374</td><td>234</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td>NewBinary5</td></row>
 		<row><td>InstallWelcome</td><td>Next</td><td>PushButton</td><td>230</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_NEXT##</td><td>Cancel</td><td/><td>0</td><td/><td/><td/></row>
@@ -551,7 +556,7 @@
 		<row><td>LicenseAgreement</td><td>DlgLine</td><td>Line</td><td>48</td><td>234</td><td>326</td><td>0</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td/></row>
 		<row><td>LicenseAgreement</td><td>DlgTitle</td><td>Text</td><td>13</td><td>6</td><td>292</td><td>25</td><td>65539</td><td/><td>##IDS__IsLicenseDlg_LicenseAgreement##</td><td/><td/><td>0</td><td/><td/><td/></row>
 		<row><td>LicenseAgreement</td><td>ISPrintButton</td><td>PushButton</td><td>301</td><td>188</td><td>65</td><td>17</td><td>3</td><td/><td>##IDS_PRINT_BUTTON##</td><td>Agree</td><td/><td>0</td><td/><td/><td/></row>
-		<row><td>LicenseAgreement</td><td>Memo</td><td>ScrollableText</td><td>8</td><td>55</td><td>358</td><td>130</td><td>7</td><td/><td/><td/><td/><td>0</td><td/><td>&lt;ISProductFolder&gt;\Redist\0409\Eula.rtf</td><td/></row>
+		<row><td>LicenseAgreement</td><td>Memo</td><td>ScrollableText</td><td>8</td><td>55</td><td>358</td><td>130</td><td>7</td><td/><td/><td/><td/><td>0</td><td/><td>&lt;ISProjectFolder&gt;\LICENSE.rtf</td><td/></row>
 		<row><td>LicenseAgreement</td><td>Next</td><td>PushButton</td><td>230</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_NEXT##</td><td>Cancel</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>MaintenanceType</td><td>Back</td><td>PushButton</td><td>164</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_BACK##</td><td>Next</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>MaintenanceType</td><td>Banner</td><td>Bitmap</td><td>0</td><td>0</td><td>374</td><td>44</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td>NewBinary1</td></row>
@@ -920,7 +925,7 @@
 		<row><td>DatabaseFolder</td><td>ChangeFolder</td><td>SpawnDialog</td><td>InstallChangeFolder</td><td>1</td><td>1</td></row>
 		<row><td>DatabaseFolder</td><td>ChangeFolder</td><td>[_BrowseProperty]</td><td>DATABASEDIR</td><td>1</td><td>2</td></row>
 		<row><td>DatabaseFolder</td><td>Next</td><td>NewDialog</td><td>SetupType</td><td>1</td><td>1</td></row>
-		<row><td>DestinationFolder</td><td>Back</td><td>NewDialog</td><td>InstallWelcome</td><td>NOT Installed</td><td>0</td></row>
+		<row><td>DestinationFolder</td><td>Back</td><td>NewDialog</td><td>LicenseAgreement</td><td>NOT Installed</td><td>0</td></row>
 		<row><td>DestinationFolder</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>1</td></row>
 		<row><td>DestinationFolder</td><td>ChangeFolder</td><td>SpawnDialog</td><td>InstallChangeFolder</td><td>1</td><td>1</td></row>
 		<row><td>DestinationFolder</td><td>ChangeFolder</td><td>[_BrowseProperty]</td><td>INSTALLDIR</td><td>1</td><td>2</td></row>
@@ -937,7 +942,7 @@
 		<row><td>InstallChangeFolder</td><td>Up</td><td>DirectoryListUp</td><td>0</td><td>1</td><td>0</td></row>
 		<row><td>InstallWelcome</td><td>Back</td><td>NewDialog</td><td>SplashBitmap</td><td>Display_IsBitmapDlg</td><td>0</td></row>
 		<row><td>InstallWelcome</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
-		<row><td>InstallWelcome</td><td>Next</td><td>NewDialog</td><td>DestinationFolder</td><td>1</td><td>0</td></row>
+		<row><td>InstallWelcome</td><td>Next</td><td>NewDialog</td><td>LicenseAgreement</td><td>1</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>Back</td><td>NewDialog</td><td>InstallWelcome</td><td>NOT Installed</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>ISPrintButton</td><td>DoAction</td><td>ISPrint</td><td>1</td><td>0</td></row>
@@ -1049,8 +1054,13 @@
 	<table name="CreateFolder">
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>INSTALLDIR</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td></row>
+		<row><td>INSTALLDIR</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe1</td></row>
+		<row><td>INSTALLDIR</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe2</td></row>
+		<row><td>INSTALLDIR</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe3</td></row>
+		<row><td>JEAN_PIERRE_HUNDHAUSEN</td><td>ISX_DEFAULTCOMPONENT</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1140,7 +1150,7 @@
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
-		<row><td>INSTALLDIR</td><td>MY_PRODUCT_NAME</td><td>.</td><td/><td>0</td><td/></row>
+		<row><td>INSTALLDIR</td><td>OPEN_INTERNET_WATCHDOG</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>ISCommonFilesFolder</td><td>CommonFilesFolder</td><td>Instal~1|InstallShield</td><td/><td>0</td><td/></row>
 		<row><td>ISMyCompanyDir</td><td>ProgramFilesFolder</td><td>MYCOMP~1|My Company Name</td><td/><td>0</td><td/></row>
 		<row><td>ISMyProductDir</td><td>ISMyCompanyDir</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
@@ -1150,6 +1160,7 @@
 		<row><td>MY_PRODUCT_NAME</td><td>JEAN_PIERRE_HUNDHAUSEN</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>MyPicturesFolder</td><td>TARGETDIR</td><td>.:MyPict~1|MyPictures</td><td/><td>0</td><td/></row>
 		<row><td>NetHoodFolder</td><td>TARGETDIR</td><td>.:NetHood</td><td/><td>0</td><td/></row>
+		<row><td>OPEN_INTERNET_WATCHDOG</td><td>JEAN_PIERRE_HUNDHAUSEN</td><td>OPENIN~1|Open Internet Watchdog</td><td/><td>0</td><td/></row>
 		<row><td>PersonalFolder</td><td>TARGETDIR</td><td>.:Personal</td><td/><td>0</td><td/></row>
 		<row><td>PrimaryVolumePath</td><td>TARGETDIR</td><td>.:Primar~1|PrimaryVolumePath</td><td/><td>0</td><td/></row>
 		<row><td>PrintHoodFolder</td><td>TARGETDIR</td><td>.:PRINTH~1|PrintHood</td><td/><td>0</td><td/></row>
@@ -1862,8 +1873,12 @@
 	<table name="FeatureComponents">
 		<col key="yes" def="s38">Feature_</col>
 		<col key="yes" def="s72">Component_</col>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>AlwaysInstall</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td></row>
+		<row><td>AlwaysInstall</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe1</td></row>
+		<row><td>AlwaysInstall</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe2</td></row>
+		<row><td>AlwaysInstall</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe3</td></row>
 	</table>
 
 	<table name="File">
@@ -1878,7 +1893,8 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>open_internet_watchdog.prim_</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td><td>Open Internet Watchdog.Primäre Ausgabe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Open Internet Watchdog&gt;|Built</td><td>3</td><td/></row>
+		<row><td>license.rtf</td><td>ISX_DEFAULTCOMPONENT1</td><td>LICENSE.rtf</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Programmierung\VisualStudio\Open Internet Watchdog\Open Internet Watchdog Setup\LICENSE.rtf</td><td>1</td><td/></row>
+		<row><td>open_internet_watchdog.prim_</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe3</td><td>Open Internet Watchdog.Primäre Ausgabe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Open Internet Watchdog&gt;|Built</td><td>3</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2020,8 +2036,12 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
+		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_E652246B_C110_4330_AE2F_A42E757D36DF_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_F05A0FC1_2A81_4A3D_993C_3BAEFD9215EB_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td><td/><td/><td>_A803E104_004B_458F_9F75_25681C2AB593_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe1</td><td/><td/><td>_4D08583B_8277_4D7D_8564_056EAC788150_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe2</td><td/><td/><td>_8A9BD64B_FEEA_4BA9_9DC6_859A94C9B465_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe3</td><td/><td/><td>_62149C24_6579_423E_9803_0863E1F3F79A_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2577,8 +2597,7 @@
 		<col def="I2">Order</col>
 		<col def="I2">ISSetupLocation</col>
 		<col def="S255">ISReleaseFlags</col>
-		<row><td>_0DDF856E_3156_4A81_ABC5_C69850001FE5_</td><td>Microsoft .NET Framework 4.5.2 Full.prq</td><td/><td/><td/></row>
-		<row><td>_980B5508_CA09_40B8_B3DB_323FA00D7FC4_</td><td>Microsoft .NET Framework 4.6 Full.prq</td><td/><td/><td/></row>
+		<row><td>_29311E88_FC3D_4C2C_9F05_70D7485CB46C_</td><td>Microsoft .NET Framework 4.5 Full.prq</td><td/><td/><td/></row>
 	</table>
 
 	<table name="ISSetupType">
@@ -2612,9 +2631,11 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Jean-Pierre Hundhausen</td><td>0</td><td/><td>715536202</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Jean-Pierre Hundhausen</td><td>0</td><td/><td>715553677</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>715537674</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>715537674</td></row>
+		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION35</td><td>1033</td><td>Microsoft .NET Framework 3.5 needs to be installed for this installation to continue.</td><td>0</td><td/><td>715581837</td></row>
+		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL</td><td>1033</td><td>Microsoft .NET Framework 4.5 Full package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>715561869</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1033</td><td>The operating system is not adequate for running [ProductName].</td><td>0</td><td/><td>715537674</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>715537674</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>715537674</td></row>
@@ -3424,7 +3445,7 @@
 		<row><td>IDS_PROGMSG_XML_UPDATE_FILE</td><td>1033</td><td>Updating XML file %s...</td><td>0</td><td/><td>715537674</td></row>
 		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1033</td><td>This setup works until %s. The setup will now exit.</td><td>0</td><td/><td>715537674</td></row>
 		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1033</td><td>This setup was built with an evaluation version of InstallShield and can only be launched from setup.exe.</td><td>0</td><td/><td>715537674</td></row>
-		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>Open Internet Watchdog</td><td>0</td><td/><td>715527658</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>Open Internet Watchdog</td><td>0</td><td/><td>715578252</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>715537674</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>715537674</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>715537674</td></row>
@@ -3713,9 +3734,11 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>715537674</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>715537674</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>715537674</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>https://github.com/Hundhausen/Open-Internet-Watchdog</td><td>0</td><td/><td>715565067</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>Jean-Pierre Hundhausen</td><td>0</td><td/><td>715536202</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.Jean-PierreHundhausen.com</td><td>0</td><td/><td>715553677</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>Jean-Pierre Hundhausen</td><td>0</td><td/><td>715553677</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>715568490</td></row>
+		<row><td>ID_STRING4</td><td>1033</td><td>Open Internet Watchdog</td><td>0</td><td/><td>715578252</td></row>
+		<row><td>ID_STRING5</td><td>1033</td><td>Open Internet Watchdog - Logs</td><td>0</td><td/><td>715568684</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>715537674</td></row>
 	</table>
 
@@ -3830,8 +3853,9 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
-		<row><td>_Built1_49BD089BFE6645DCA6A36BA3085E2406.exe</td><td/><td>&lt;SystemFolder&gt;\SHELL32.dll</td><td>2</td></row>
-		<row><td>_Built_D68331163FA64A5194EFB8E962A9A892.exe</td><td/><td>&lt;SystemFolder&gt;\SHELL32.dll</td><td>2</td></row>
+		<row><td>NewShortcut1_5D812732B72842DA8A2736BF86BBFCF7.exe</td><td/><td>&lt;SystemFolder&gt;\shell32.dll</td><td>3</td></row>
+		<row><td>_Built1_721F46ECB3C6474796DE9F5CA1490A95.exe</td><td/><td>&lt;SystemFolder&gt;\shell32.dll</td><td>2</td></row>
+		<row><td>_Built_83D8C2F2AD9347FAA710237365D37936.exe</td><td/><td>&lt;SystemFolder&gt;\shell32.dll</td><td>2</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -3950,7 +3974,7 @@
 UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 			</td></row>
 		<row><td>DefaultProductConfiguration</td><td>Express</td></row>
-		<row><td>EnableSwidtag</td><td>1</td></row>
+		<row><td>EnableSwidtag</td><td>0</td></row>
 		<row><td>ISCompilerOption_CompileBeforeBuild</td><td>1</td></row>
 		<row><td>ISCompilerOption_Debug</td><td>0</td></row>
 		<row><td>ISCompilerOption_IncludePath</td><td/></row>
@@ -3964,7 +3988,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{FB7B44BC-F189-47C8-9BAA-FDE7A3D0692B}</td></row>
 		<row><td>ISUSSignature</td><td>{30646F6B-8546-4604-B181-8FFC40A4A046}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewObjects,viewShortcuts,viewRelease,viewProject,viewUpgradePaths,viewUpdateService,viewAppFiles,viewRegistry,viewEnvironmentVariables,viewServices,viewUI</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewObjects,viewShortcuts,viewRelease,viewProject,viewUpgradePaths,viewUpdateService,viewAppFiles,viewRegistry,viewEnvironmentVariables,viewServices,viewUI,viewIniFiles,viewFileExtensions,viewVRoots,viewTextMessages,viewSystemSearch,viewCustomActions</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4022,6 +4046,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 	<table name="LaunchCondition">
 		<col key="yes" def="s255">Condition</col>
 		<col def="l255">Description</col>
+		<row><td>DOTNETVERSION45FULL&gt;="#1"</td><td>##IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL##</td></row>
 	</table>
 
 	<table name="ListBox">
@@ -4310,6 +4335,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>InstallChoice</td><td>AR</td><td/></row>
 		<row><td>LAUNCHPROGRAM</td><td>1</td><td/></row>
 		<row><td>LAUNCHREADME</td><td>1</td><td/></row>
+		<row><td>MSIFASTINSTALL</td><td>0</td><td/></row>
 		<row><td>Manufacturer</td><td>##COMPANY_NAME##</td><td/></row>
 		<row><td>PIDKEY</td><td/><td/></row>
 		<row><td>PIDTemplate</td><td>12345&lt;###-%%%%%%%&gt;@@@@@</td><td/></row>
@@ -4350,7 +4376,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>RestartManagerOption</td><td>CloseRestart</td><td/></row>
 		<row><td>SERIALNUMBER</td><td/><td/></row>
 		<row><td>SERIALNUMVALSUCCESSRETVAL</td><td>1</td><td/></row>
-		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR</td><td/></row>
+		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;DOTNETVERSION45FULL</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
 		<row><td>UpgradeCode</td><td>{3F2D1BCB-04B3-405C-8132-D8FB6B88F116}</td><td/></row>
@@ -4395,6 +4421,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s255">Key</col>
 		<col def="S255">Name</col>
 		<col def="I2">Type</col>
+		<row><td>DotNet45Full</td><td>2</td><td>SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full</td><td>Version</td><td>2</td></row>
 	</table>
 
 	<table name="Registry">
@@ -4501,8 +4528,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>_Built</td><td>open_internet_watchdog_setup</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built_D68331163FA64A5194EFB8E962A9A892.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built1_49BD089BFE6645DCA6A36BA3085E2406.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>NewShortcut1</td><td>DesktopFolder</td><td>##ID_STRING5##</td><td>ISX_DEFAULTCOMPONENT1</td><td>[INSTALLDIR]</td><td/><td/><td/><td>NewShortcut1_5D812732B72842DA8A2736BF86BBFCF7.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built</td><td>open_internet_watchdog_setup</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built_83D8C2F2AD9347FAA710237365D37936.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built1_721F46ECB3C6474796DE9F5CA1490A95.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
