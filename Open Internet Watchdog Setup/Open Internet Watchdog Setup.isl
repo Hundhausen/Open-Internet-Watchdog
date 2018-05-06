@@ -342,6 +342,7 @@
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{F9354AAC-A631-4414-8D23-049069536617}</td><td>JEAN_PIERRE_HUNDHAUSEN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{D33D8C45-C5DB-4740-9A54-287D73099A51}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{EEBE7DD1-86B7-4154-AC03-C09F694F220D}</td><td>PersonalFolder</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td><td>{E1E1A616-51F0-4C4F-919C-1758A69B9008}</td><td>INSTALLDIR</td><td>2</td><td/><td>open_internet_watchdog.prim_</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe1</td><td>{5998552F-409C-407A-95BA-D18445482698}</td><td>INSTALLDIR</td><td>2</td><td/><td>open_internet_watchdog.prim_</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe2</td><td>{33BE5EAC-7117-4E9E-9E33-EEEF3A59A9B3}</td><td>INSTALLDIR</td><td>2</td><td/><td>open_internet_watchdog.prim_</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -556,7 +557,7 @@
 		<row><td>LicenseAgreement</td><td>DlgLine</td><td>Line</td><td>48</td><td>234</td><td>326</td><td>0</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td/></row>
 		<row><td>LicenseAgreement</td><td>DlgTitle</td><td>Text</td><td>13</td><td>6</td><td>292</td><td>25</td><td>65539</td><td/><td>##IDS__IsLicenseDlg_LicenseAgreement##</td><td/><td/><td>0</td><td/><td/><td/></row>
 		<row><td>LicenseAgreement</td><td>ISPrintButton</td><td>PushButton</td><td>301</td><td>188</td><td>65</td><td>17</td><td>3</td><td/><td>##IDS_PRINT_BUTTON##</td><td>Agree</td><td/><td>0</td><td/><td/><td/></row>
-		<row><td>LicenseAgreement</td><td>Memo</td><td>ScrollableText</td><td>8</td><td>55</td><td>358</td><td>130</td><td>7</td><td/><td/><td/><td/><td>0</td><td/><td>&lt;ISProjectFolder&gt;\LICENSE.rtf</td><td/></row>
+		<row><td>LicenseAgreement</td><td>Memo</td><td>ScrollableText</td><td>8</td><td>55</td><td>358</td><td>130</td><td>7</td><td/><td/><td/><td/><td>0</td><td/><td>D:\Programmierung\VisualStudio\PC-Timer\PC-Timer\License.rtf</td><td/></row>
 		<row><td>LicenseAgreement</td><td>Next</td><td>PushButton</td><td>230</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_NEXT##</td><td>Cancel</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>MaintenanceType</td><td>Back</td><td>PushButton</td><td>164</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_BACK##</td><td>Next</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>MaintenanceType</td><td>Banner</td><td>Bitmap</td><td>0</td><td>0</td><td>374</td><td>44</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td>NewBinary1</td></row>
@@ -1056,11 +1057,13 @@
 		<col key="yes" def="s72">Component_</col>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT1</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>INSTALLDIR</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td></row>
 		<row><td>INSTALLDIR</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe1</td></row>
 		<row><td>INSTALLDIR</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe2</td></row>
 		<row><td>INSTALLDIR</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe3</td></row>
 		<row><td>JEAN_PIERRE_HUNDHAUSEN</td><td>ISX_DEFAULTCOMPONENT</td></row>
+		<row><td>PersonalFolder</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1155,7 +1158,7 @@
 		<row><td>ISMyCompanyDir</td><td>ProgramFilesFolder</td><td>MYCOMP~1|My Company Name</td><td/><td>0</td><td/></row>
 		<row><td>ISMyProductDir</td><td>ISMyCompanyDir</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>ISYourDataBaseDir</td><td>INSTALLDIR</td><td>Database</td><td/><td>0</td><td/></row>
-		<row><td>JEAN_PIERRE_HUNDHAUSEN</td><td>ProgramFilesFolder</td><td>JEAN-P~1|Jean-Pierre Hundhausen</td><td/><td>0</td><td/></row>
+		<row><td>JEAN_PIERRE_HUNDHAUSEN</td><td>PersonalFolder</td><td>JEAN-P~1|Jean-Pierre Hundhausen</td><td/><td>0</td><td/></row>
 		<row><td>LocalAppDataFolder</td><td>TARGETDIR</td><td>.:LocalA~1|LocalAppData</td><td/><td>0</td><td/></row>
 		<row><td>MY_PRODUCT_NAME</td><td>JEAN_PIERRE_HUNDHAUSEN</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>MyPicturesFolder</td><td>TARGETDIR</td><td>.:MyPict~1|MyPictures</td><td/><td>0</td><td/></row>
@@ -1875,6 +1878,7 @@
 		<col key="yes" def="s72">Component_</col>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>AlwaysInstall</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td></row>
 		<row><td>AlwaysInstall</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe1</td></row>
 		<row><td>AlwaysInstall</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe2</td></row>
@@ -1893,7 +1897,7 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>license.rtf</td><td>ISX_DEFAULTCOMPONENT1</td><td>LICENSE.rtf</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Programmierung\VisualStudio\Open Internet Watchdog\Open Internet Watchdog Setup\LICENSE.rtf</td><td>1</td><td/></row>
+		<row><td>license.rtf</td><td>ISX_DEFAULTCOMPONENT1</td><td>License.rtf</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Programmierung\VisualStudio\PC-Timer\PC-Timer\License.rtf</td><td>1</td><td/></row>
 		<row><td>open_internet_watchdog.prim_</td><td>Open_Internet_Watchdog.Prim_re_Ausgabe3</td><td>Open Internet Watchdog.Primäre Ausgabe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Open Internet Watchdog&gt;|Built</td><td>3</td><td/></row>
 	</table>
 
@@ -2038,6 +2042,7 @@
 		<col def="S0">Miscellaneous</col>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_E652246B_C110_4330_AE2F_A42E757D36DF_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_F05A0FC1_2A81_4A3D_993C_3BAEFD9215EB_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_CD7C9B6F_DEA7_4798_AB72_90DB1DFD230D_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe</td><td/><td/><td>_A803E104_004B_458F_9F75_25681C2AB593_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe1</td><td/><td/><td>_4D08583B_8277_4D7D_8564_056EAC788150_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Open_Internet_Watchdog.Prim_re_Ausgabe2</td><td/><td/><td>_8A9BD64B_FEEA_4BA9_9DC6_859A94C9B465_FILTER</td><td/><td/><td/><td/></row>
@@ -2597,7 +2602,7 @@
 		<col def="I2">Order</col>
 		<col def="I2">ISSetupLocation</col>
 		<col def="S255">ISReleaseFlags</col>
-		<row><td>_29311E88_FC3D_4C2C_9F05_70D7485CB46C_</td><td>Microsoft .NET Framework 4.5 Full.prq</td><td/><td/><td/></row>
+		<row><td>_29311E88_FC3D_4C2C_9F05_70D7485CB46C_</td><td>Microsoft .NET Framework 4.5 Full.prq</td><td/><td>1</td><td/></row>
 	</table>
 
 	<table name="ISSetupType">
@@ -3734,7 +3739,7 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>715537674</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>715537674</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>715537674</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.Jean-PierreHundhausen.com</td><td>0</td><td/><td>715553677</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>https://github.com/Hundhausen/Open-Internet-Watchdog/</td><td>0</td><td/><td>849745166</td></row>
 		<row><td>ID_STRING2</td><td>1033</td><td>Jean-Pierre Hundhausen</td><td>0</td><td/><td>715553677</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>715568490</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>Open Internet Watchdog</td><td>0</td><td/><td>715578252</td></row>
@@ -4364,7 +4369,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>ProductCode</td><td>{D435AB31-565E-4E23-9F8D-1272D27C6F1D}</td><td/></row>
 		<row><td>ProductName</td><td>Open Internet Watchdog Setup</td><td/></row>
-		<row><td>ProductVersion</td><td>0.0.2</td><td/></row>
+		<row><td>ProductVersion</td><td>0.0.3</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
